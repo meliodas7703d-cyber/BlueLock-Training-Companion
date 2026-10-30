@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#06182C"
+    android:orientation="horizontal">
+
+    <!-- HOME -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/home_icon"
+            android:scaleType="fitCenter"
+            android:contentDescription="Home" />
+
+        <Button
+            android:id="@+id/btnBottomHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:text="HOME"
+            android:textColor="#9FB6D1"
+            android:textSize="6sp" />
+
+    </FrameLayout>
+
+    <!-- PERFORMANCE -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/performance_icon"
+            android:scaleType="fitCenter"
+            android:contentDescription="Performance" />
+
+        <Button
+            android:id="@+id/btnBottomPerformance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:text="PERFORMANCE"
+            android:textColor="#9FB6D1"
+            android:textSize="5sp" />
+
+    </FrameLayout>
+
+    <!-- PROGRESS -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/progress_bottom_icon"
+            android:scaleType="fitCenter"
+            android:contentDescription="Progress" />
+
+        <Button
+            android:id="@+id/btnBottomProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:text="PROGRESS"
+            android:textColor="#9FB6D1"
+            android:textSize="5sp" />
+
+    </FrameLayout>
+
+    <!-- BADGES -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/badges_bottom_icon"
+            android:scaleType="fitCenter"
+            android:contentDescription="Badges" />
+
+        <Button
+            android:id="@+id/btnBottomBadges"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:text="BADGES"
+            android:textColor="#9FB6D1"
+            android:textSize="5sp" />
+
+    </FrameLayout>
+
+    <!-- PROFILE -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/profile_outline_icon"
+            android:scaleType="fitCenter"
+            android:contentDescription="Profile" />
+
+        <Button
+            android:id="@+id/btnBottomProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:text="PROFILE"
+            android:textColor="#9FB6D1"
+            android:textSize="5sp" />
+
+    </FrameLayout>
+
+</LinearLayout>

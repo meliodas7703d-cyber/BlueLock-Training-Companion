@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BLUELOCK</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="checking_player_profile">Checking player profile&#8230;</string>
+    <string name="firestore_permission_error">Firestore Permission Error:\n\n%1$s\n\n[ TAP HERE TO SETUP PROFILE ]</string>
+</resources>
